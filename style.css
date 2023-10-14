@@ -1,0 +1,336 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 'josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("C:\Users\Ali\Desktop\Lab Task 03\shahzaib3.jpg");
+    background-size: contains;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: #7D7C7C;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+span{
+    color: #26577C;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+nav ul li a{
+    color: #008170;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color: #7D7C7C;
+    transition: 4s;
+
+}
+
+.btn{
+    background-color: #232D3F;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+
+
+}
+.btn:hover{
+    transform: scale(1.2);
+
+
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+
+}
+h1{
+    color: #219C90;
+    margin: 28px 0px 20px;
+    font-size: 75px;
+
+}
+h3{
+    color: #900C3F;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+h4{
+    color: #900C3F;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #232D3F;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #232D3F;
+    color: white;
+    box-shadow: 0px 0px 5px #000 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+
+}
+.about img{
+    height: auto;
+    width: 430px;
+     
+}
+.about-text{
+    width: 550px;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+button {
+    background-color: #232D3F;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px ;
+    transition: .4s;
+
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #232D3F;
+    cursor: pointer;
+
+    
+}
+
+.servise{
+    background: #101010;
+    width: 100%;
+    padding: 100% 0px;
+}
+.title{
+    color: rgb(134, 79, 79);
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+.card{
+    height: 365;
+    width: 335;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #232D3F;
+
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+}
+
+.card .button {
+    background-color: #232D3F;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px ;
+    border-radius: 30;
+    transition: .4s;
+
+}
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #232D3F;
+    cursor: pointer;
+
+}
+.Contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.Contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.Contact-me .button-two{
+    background-color:#900C3F;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px ;
+    transition: .4s;
+
+}
+.Contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+footer :nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer :nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: non;
+
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px ;
+    font-size: 14px;
+    
+}
